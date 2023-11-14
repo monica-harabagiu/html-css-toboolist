@@ -48,3 +48,55 @@ hr {
     border: 1px solid #F6F8F9;
 }
 
+.buttons button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+div button:first-child {
+    background-color: #48ADF1;
+    border: solid #48ADF1;
+    color: white;
+}
+
+div button:last-child {
+    background-color: transparent;
+    border: solid #CDD2D6;
+    color: #D1D6D9;
+}
+
+section {
+    margin-bottom: 30px;
+    color: #323741;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    margin-top: 20px;
+}
+
+ul li.check:before {
+    content: '\2713';
+    margin: 1em;
+    color: #58BCA5;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
+ul li.cross:before {
+    content: '\2715';
+    margin: 1em;
+    color: #E62416;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px 5px;
+}
+
