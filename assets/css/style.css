@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+header {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-inline: 50px;
+}
+
+.buttons {
+   padding-block: 10px;
+   border-radius: 5px 5px 0 0;
+}
+
+.lists {
+   padding-block: 30px;
+   border-radius: 0 0 5px 5px;
+}
+
+hr {
+    border: 1px solid #F6F8F9;
+}
+
