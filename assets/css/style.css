@@ -82,7 +82,7 @@ ul li {
 
 ul li.check:before {
     content: '\2713';
-    margin: 1em;
+    margin-right: 10px;
     color: #58BCA5;
     border: 1px solid;
     border-radius: 50%;
@@ -92,11 +92,71 @@ ul li.check:before {
 
 ul li.cross:before {
     content: '\2715';
-    margin: 1em;
+    margin-right: 10px;
     color: #E62416;
     border: 1px solid;
     border-radius: 50%;
     font-size: 12px;
     padding: 3px 5px;
+}
+
+ul li.editorial::after {
+    content: 'Editorial';
+    color: white;
+    font-size: 10px;
+    background-color: #48ADF1;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+ul li.q1-goals::after {
+    content: 'Q1 Goals';
+    color: white;
+    font-size: 10px;
+    background-color: #9C72E4;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+ul li.recruiting::after {
+    content: 'Recruiting';
+    color: white;
+    font-size: 10px;
+    background-color: #64C0A9;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+ul li.mobile::after {
+    content: 'Mobile';
+    color: white;
+    font-size: 10px;
+    background-color: #F29E33;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+ul li.website::after {
+    content: 'Website';
+    color: white;
+    font-size: 10px;
+    background-color: #D863A1;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+ul li.sales::after {
+    content: 'Sales';
+    color: white;
+    font-size: 10px;
+    background-color: #B0C925;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
